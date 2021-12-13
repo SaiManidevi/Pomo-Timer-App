@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pomo Timer</string>
+    <string name="pomo_time">Pomodoro Time</string>
+    <string name="short_break">Short Break</string>
+    <string name="long_break">Long Break</string>
+    <string name="stop">STOP</string>
+    <string name="start">Start</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="dialog_title">Stop current session?</string>
+    <string name="dialog_message">Your current session time with be reset</string>
+    <string name="class_time">CLASS TIME</string>
+    <string name="current_session">Current Session: # %d</string>
+</resources>

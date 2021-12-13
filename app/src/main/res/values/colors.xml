@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_card_pomo">#E57373</color>
+    <color name="color_card_short_break">#64B5F6</color>
+    <color name="color_card_long_break">#81C784</color>
+
+    <color name="color_pomo_time">#EF5350</color>
+    <color name="color_short_break">#42A5F5</color>
+    <color name="color_long_break">#66BB6A</color>
+
+    <color name="color_red_700">#D32F2F</color>
+    <color name="color_blue_700">#1976D2</color>
+    <color name="color_green_700">#388E3C</color>
+
+    <color name="color_yellow">#FFEB3B</color>
+</resources>
