@@ -23,8 +23,6 @@ class MainActivity : AppCompatActivity() {
         binding.btPomo.maxLines = 2
         binding.btShortBreak.maxLines = 2
         binding.btLongBreak.maxLines = 2
-        // Initially, check/select the Pomodoro button
-        binding.togglePomoTime.check(R.id.bt_pomo)
         binding.togglePomoTime.addOnButtonCheckedListener { _, checkedId, isChecked ->
             if (isChecked) {
                 // Check if button clicked by the user and not just checked programmatically for UI
@@ -128,5 +126,16 @@ class MainActivity : AppCompatActivity() {
         binding.pomoParent.setBackgroundColor(color)
         binding.btStart.setTextColor(textColor)
         binding.pomoCard.setCardBackgroundColor(cardBgColor)
+    }
+
+    override fun onStart() {
+        super.onStart()
+        viewModel.readData()
+        binding.togglePomoTime.check(viewModel.getCurrentStateButtonId())
+    }
+
+    override fun onStop() {
+        super.onStop()
+        viewModel.saveData()
     }
 }

@@ -6,9 +6,13 @@
     <string name="stop">STOP</string>
     <string name="start">Start</string>
     <string name="ok">OK</string>
-    <string name="cancel">CANCEL</string>
+    <string name="cancel">Cancel</string>
     <string name="dialog_title">Stop current session?</string>
     <string name="dialog_message">Your current session time with be reset</string>
     <string name="class_time">CLASS TIME</string>
     <string name="current_session">Current Session: # %d</string>
+    <string name="notification_title">"Times up! "</string>
+    <string name="notification_content_pomodoro">It is Pomodoro time - Let\'s do it! Wohoo!!</string>
+    <string name="notification_content_short_break">Take a short break - Stretch &amp; drink water</string>
+    <string name="notification_content_long_break">Congrats!!! Long break… You deserve it</string>
 </resources>
